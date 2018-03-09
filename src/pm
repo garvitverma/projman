@@ -1,11 +1,11 @@
-#!/tools/bin/python
+#!/usr/bin/env python
 import os
 import shutil
 import pprint
 from argparse import ArgumentParser
 
-from dd.runtime import api
-api.load('pyyaml')
+#from dd.runtime import api
+#api.load('pyyaml')
 
 import yaml
 
